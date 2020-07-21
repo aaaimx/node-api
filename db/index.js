@@ -1,6 +1,6 @@
 const { Client } = require('pg')
 const connectionString =
-  'postgres://hello_django:hello_django@0.0.0.0:5433/hello_django_dev'
+  'postgres://admin:admin@0.0.0.0:5432/aaaimx_dev'
 
 // String de conexion
 const client = new Client({
